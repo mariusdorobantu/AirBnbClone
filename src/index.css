@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav--logo {
+    max-width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+    padding: 20px 36px;
+}
+
+.hero--img {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+p {
+    width: 320px;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 39.6px;
+}
+
+.bold--price {
+    font-weight: 600;
+}
+
+.grey--text {
+    color: #808080;
+}
+
+/* CARDS */
+.card--container,
+.footer--text {
+    font-size: 0.7rem;
+}
+
+.footer--img {
+    height: 235px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.footer--star--img {
+    height: 12px;
+    padding-right: 5px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.footer--detailes {
+    display: flex;
+}
+
+span {
+    padding-right: 5px;
+}
+
+.card--container {
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    margin: 0 30px;
+}
+
+.openSpots--status {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.location--status {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
